@@ -17,5 +17,5 @@
   "website": "https://github.com/lonkle/openvpn-client-cloudron",  
   "contactEmail": "support@clourdon.io",  
   "icon": "file://logo.png",
-  "tags": [ "vpn" ] 
+  "tags": [ "vpn", "client" ] 
 }
