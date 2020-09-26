@@ -1,0 +1,14 @@
+{
+  "title": "OpenVPN Client",
+  "version": "0.3.0",
+  "healthCheckPath": "/healthcheck",
+  "httpPort": 8000,
+  "addons": {
+    "localstorage": {}
+  },
+  "capabilities": [
+    "net_admin"
+  ],  
+  "manifestVersion": 2,
+  "icon": ""
+}
