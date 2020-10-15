@@ -1,12 +1,12 @@
 {
-  "id": "co.simpleways.openvpnclient",
+  "id": "com.joelstickney.openvpnclient",
   "title": "OpenVPN Client",
   "author": "Joel Stickney (Lonk)",  
   "description": "OpenVPN Client adapted for use on the Cloudron platform",
   "tagline": "Connect your apps to any OpenVPN Server",    
   "version": "0.3.0",
-  "healthCheckPath": "/healthcheck",
-  "httpPort": 8000,
+  "healthCheckPath": "/",
+  "httpPort": 29932,
   "addons": {
     "localstorage": {}
   },
@@ -15,7 +15,6 @@
   ],  
   "manifestVersion": 2,
   "website": "https://github.com/lonkle/openvpn-client-cloudron",  
-  "contactEmail": "support@clourdon.io",  
   "icon": "file://logo.png",
   "tags": [ "vpn", "client" ] 
 }
